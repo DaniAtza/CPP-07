@@ -1,7 +1,7 @@
-NAME        =   templates
+NAME        =   iter
 
 SRCS        =	main.cpp
-HEADERS     =	whatever.hpp
+HEADERS     =	iter.hpp
  
 OBJ		=	$(SRCS:.cpp=.o)
 CC		=	c++
@@ -24,3 +24,4 @@ fclean: clean
 re:	fclean all
 
 .PHONY:	all clean fclean re
+
